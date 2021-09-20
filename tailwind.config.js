@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         svelte: "#ff3e00",
       },
+      minHeight: (theme) => theme("height"),
     },
   },
   variants: {},
