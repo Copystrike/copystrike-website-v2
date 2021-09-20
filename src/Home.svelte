@@ -9,7 +9,7 @@
     <h1 class="text-5xl font-medium text-purple-900 gradient-to-r">
       Hey, my name is Nick!
     </h1>
-    <p class="mt-16">Well not much too see here... Yet?</p>
+    <p class="mt-16">Well not much to see here... Yet?</p>
     <div class="mt-20 ">
       <SocialMedias />
     </div>
