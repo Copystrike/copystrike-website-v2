@@ -8,11 +8,11 @@
   >
     <div class="text-center">
       <h1
-        class="p-5 text-4xl text-purple-900 break-words md:text-5xl gradient-to-r"
+        class="px-4 py-3 text-4xl text-purple-900 break-words md:text-5xl gradient-to-r"
       >
         Hey, my name is <span class="font-bold">Nick</span>!
       </h1>
-      <p class="font-thin text-gray-800">Welcome to my website 😐...<br>Check out my socials!</p>
+      <p class="font-thin text-gray-800">Welcome to my website, more will be added soon!<br>Check out my socials!</p>
       <div class="text-center">
         <div class="inline-block py-3">
           <SocialMedias />
