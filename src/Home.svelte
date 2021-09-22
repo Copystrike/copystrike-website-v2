@@ -2,16 +2,22 @@
   import SocialMedias from "./components/SocialMedias.svelte";
 </script>
 
-<div
-  class="w-4/5 border-opacity-25 rounded-lg md:w-2/4 md:h-3/6 lg:h-2/5 shadow-box bg-gradient-to-br from-indigo-400 to-purple-500 opacity-95 h-2/5"
->
-  <div class="mt-6 text-center md:mt-16">
-    <h1 class="text-4xl font-medium text-purple-900 md:text-5xl gradient-to-r">
-      Hey, my name is Nick!
-    </h1>
-    <p class="mt-16">Well not much to see here... Yet?</p>
-    <div class="my-10">
-      <SocialMedias />
+<div class="mx-4 mt-20 mb-auto h-50">
+  <div
+    class="border-opacity-25 rounded-lg shadow-box bg-gradient-to-br from-indigo-400 to-purple-500 opacity-95"
+  >
+    <div class="text-center">
+      <h1
+        class="p-5 text-4xl text-purple-900 break-words md:text-5xl gradient-to-r"
+      >
+        Hey, my name is <span class="font-bold">Nick</span>!
+      </h1>
+      <p class="font-thin text-gray-800">Welcome to my website 😐...<br>Check out my socials!</p>
+      <div class="text-center">
+        <div class="inline-block py-3">
+          <SocialMedias />
+        </div>
+      </div>
     </div>
   </div>
 </div>

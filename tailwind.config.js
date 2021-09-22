@@ -17,6 +17,7 @@ module.exports = {
         svelte: "#ff3e00",
       },
       minHeight: (theme) => theme("height"),
+      minWidth: (theme) => theme("width"),
     },
   },
   variants: {},
